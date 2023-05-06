@@ -7,15 +7,15 @@
         <title>Small Store</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         {{-- @vite('resources/css/app.css') --}}
-        <link rel="stylesheet" href="{{asset('build/assets/app-922580d8.css')}}">
+        <link rel="stylesheet" href="{{asset('css/app-922580d8.css')}}">
         <script>window.Laravel = {csrfToken: '{{ csrf_token() }}'}</script>
     </head>
     <body class="antialiased">
         <div id="app">
 
         </div>
-        <script src="{{asset('build/assets/app-4ed993c7.js')}}"></script>
-        <script src="{{asset('build/assets/app-4456a446.js')}}"></script>
+        <script src="{{asset('js/app-4ed993c7.js')}}"></script>
+        <script src="{{asset('js/app-4456a446.js')}}"></script>
         {{-- @vite('resources/js/app.js') --}}
     </body>
 </html>
